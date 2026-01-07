@@ -1,0 +1,22 @@
+{
+  "name": "mdod-api-gateway",
+  "version": "1.0.0",
+  "description": "M-DOD Secure API Gateway",
+  "main": "secure_gateway.js",
+  "scripts": {
+    "start": "node secure_gateway.js",
+    "dev": "nodemon secure_gateway.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "http-proxy-middleware": "^2.0.6",
+    "dotenv": "^16.3.1",
+    "helmet": "^7.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "jest": "^29.7.0"
+  }
+}
