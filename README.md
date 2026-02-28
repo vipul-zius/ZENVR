@@ -3,6 +3,7 @@
 ## Project Overview
 Implementation of Hilbert's Nullstellensatz theorem for polynomial ideal membership verification across multiple programming languages.
 
+
 ## System Requirements
 - Ubuntu 24.04+ / MacOS / Windows with WSL2
 - Python 3.10+, Node.js 18+, Go 1.21+, Java 17+, GCC 11+
